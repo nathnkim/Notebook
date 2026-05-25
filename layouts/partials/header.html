@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
+
+<header>
+
+  <div class="header-container">
+    <!-- Left Thumbnail (Logo) -->
+    <div class="header-left">
+      <a href="/">
+        <img src="/images/nkim_logo.svg" alt="Logo" class="thumbnail" />
+      </a>
+    </div>
+    
+    <!-- Right Thumbnail (Hamburger Icon) -->
+    <div class="header-right">
+      <label for="menu-toggle" class="hamburger mobile-only">
+        <img src="/images/hamburger.svg" alt="Menu" class="thumbnail" />
+      </label>
+    </div>
+    
+    <!-- Hidden Checkbox (for controlling menu visibility) -->
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox" />
+    
+    <!-- Popup Menu -->
+    <div class="menu">
+      <div class="close-btn" onclick="document.getElementById('menu-toggle').checked = false;">&times;</div>
+      <a href="/projects/">PROJECTS</a>
+      <a href="/ideas/">IDEAS</a>
+      <a href="/about/">ABOUT</a>
+    </div>
+    
+    <!-- List Menu for Larger Screens -->
+    <div class="mid-size">
+      <a href="/">
+        <img src="/images/nkim_logo.svg" alt="Logo" style="height: 80px;">
+      </a>
+      
+      <div class="nav-links">
+        <a href="/projects/">PROJECTS</a>
+        <a href="/ideas/">IDEAS</a>
+        <a href="/about/">ABOUT</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Horizontal Line Below -->
+  <hr class="divider">
+
+</header>

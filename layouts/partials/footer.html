@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
+
+{{ if .Params.tags }} <!-- Check if there are tags present -->
+    <div class="footer-tags">
+        <p style="display: inline;"> <i>See more projects involving:  </i> </p>
+        <span>
+            {{ range $index, $tag := .Params.tags }} <!-- Iterate through each tag -->
+                <a href="{{ "tags/" | relURL }}{{ $tag | urlize }}"><i>{{ $tag }}</i></a> <!-- Add comma separator -->
+            {{ end }}
+        </span>
+    </div>
+{{ end }}
+
+<nav aria-label="breadcrumb" class="breadcrumb">
+    <ol>
+      {{ range .Ancestors.Reverse }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </li>
+      {{ end }}
+      <li class="active">
+        <a aria-current="page" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </li>
+    </ol>
+  </nav>
+
+  <div class="footer-logo">
+    <a href="/">
+      <img src="/images/nkim_logo.svg" alt="Logo">
+    </a>
+  </div>

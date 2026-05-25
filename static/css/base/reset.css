@@ -1,0 +1,31 @@
+/* Remove default margin and padding from all elements */
+* {
+    margin: 0;
+    padding: 0;
+    /*overflow-x: hidden;*/
+    box-sizing: border-box; /* Use border-box for consistent sizing */
+}
+
+  /* Remove default link styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove list item bullets and extra padding */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset heading margins */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Make images and videos responsive by default */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

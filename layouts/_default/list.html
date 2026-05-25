@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>{{ .Title }}</title>
+
+    <link rel="icon" href="{{ "/" | absURL }}images/nkim_logo.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "/css/pages/listpage.css" | absURL }}">
+</head>
+
+<body>
+
+    <div class="page-layout">
+
+        <main class="content">
+
+            {{ $entries := where .Pages.ByDate.Reverse "Section" "entries" }}
+
+            {{ if eq (len $entries) 0 }}
+
+                <p>No posts found.</p>
+
+            {{ else }}
+
+                <div class="project-list">
+
+                    {{ range $entries }}
+
+                        <a href="{{ .Permalink }}" class="project-row" style="text-decoration: none;">
+
+                            <div class="project-image">
+
+                                {{ $thumbnail := printf "/images/thumbnails/%s.jpg" .Params.imagecode | urlize }}
+
+                                <img
+                                    src="{{ $thumbnail | absURL }}"
+                                    alt="{{ .Title }}"
+                                >
+
+                            </div>
+
+
+                            <div class="project-meta">
+
+                                <h2 class="project-title">
+                                    {{ .Title }}
+                                </h2>
+
+                                <div class="project-date">
+                                    {{ .Date.Format "Jan 2, 2006" }}
+                                </div>
+
+                            </div>
+                        </a>
+
+                    {{ end }}
+
+                </div>
+
+            {{ end }}
+
+        </main>
+
+    </div>
+
+    {{ partial "footer" . }}
+
+</body>
+
+</html>

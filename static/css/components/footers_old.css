@@ -1,0 +1,62 @@
+.breadcrumb {
+    display: flex; /* Use flexbox for grid */
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Space between items */
+    align-content: flex-start;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.breadcrumb ol {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Flexbox for horizontal alignment */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    font-family:'Courier New', Courier, monospace;
+}
+
+.breadcrumb li {
+    margin-right: 5px; /* Space between items */
+    margin-top: 5px; /* Space between items */
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/"; /* Change this to "/" for a slash separator */
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+.footer-tags {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  flex-wrap: wrap;          /* Ensure tags wrap properly on smaller screens */
+  text-align: center;       /* Center the text within each line */
+}
+
+.footer-tags p {
+  margin-right: 3px;        /* Adds a little space between the text and the tags */
+}
+
+.footer-tags span a {
+  margin: 0 1px;            /* Adds spacing between individual tags */
+}
+
+/* Mobile View */
+@media (max-width: 992px) {
+  .breadcrumb{
+    font-size: 1.6rem;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 993px) {
+  .breadcrumb{
+    font-size: 1.6rem;
+  }
+}   

@@ -1,0 +1,154 @@
+/* =========================================
+   Base Layout
+========================================= */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    background: white;
+    color: black;
+}
+
+/* =========================================
+   Layout Wrapper
+========================================= */
+
+.page-layout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* =========================================
+   Main Content Column
+========================================= */
+
+.content {
+    width: 100%;
+    max-width: 760px;
+
+    padding:
+        12px
+        20px
+        12px
+        20px;
+
+    box-sizing: border-box;
+
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+
+/* =========================================
+   Typography
+========================================= */
+
+.content h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.post-date {
+    color: grey;
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+}
+
+.content p {
+    margin-bottom: 1.25rem;
+}
+
+.content a {
+    text-decoration: underline;
+}
+
+/* =========================================
+   Images
+========================================= */
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* =========================================
+   Code Blocks
+========================================= */
+
+.content pre {
+    overflow-x: auto;
+
+    padding: 14px;
+
+    border-radius: 6px;
+
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.content code {
+    font-family: monospace;
+}
+
+/* =========================================
+   Tables
+========================================= */
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content th,
+.content td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width: 576px) {
+
+    .content {
+        padding:
+            10px
+            16px
+            12px
+            16px;
+
+        font-size: 1.6rem;
+    }
+
+    .content h1 {
+        font-size: 2.8rem;
+    }
+
+    .post-date {
+    font-size: 1.6rem;
+    }
+
+    .content pre {
+    font-size: 1.6rem;
+}
+
+}
+
+/* =========================================
+   Large Desktop
+========================================= */
+
+@media (min-width: 1200px) {
+
+    .content {
+        max-width: 820px;
+    }
+
+}

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ .Title }}</title>
+  <link rel="icon" href="{{ "/" | absURL }}images/nkim_logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "/css/pages/singlepage.css" | absURL }}">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/auto-render.min.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false
+      });
+    });
+    </script>
+
+</head>
+<body>
+
+  <!-- Wrapper for Sidebar and Content -->
+  <div style="display: flex;">
+
+    {{/* Sidebar layout, uncomment if needed:
+    <div style="position: sticky; top: 0; height: 100vh; width: 220px;">
+      <aside style="padding: 20px;">
+        <img src="/images/nkim_logo.svg" alt="Logo" style="width: 100px; margin-bottom: 20px;">
+        <nav>
+          <ul style="list-style: none; padding: 0;">
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+    */}}
+
+    <div>
+      <h1 style="margin-bottom: 5px; margin-top: 10px;">{{ .Title }}</h1>
+      <div style="color:grey; margin-bottom: 5px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }} </div>
+      <div>{{ .Content | safeHTML }}</div>
+    </div>
+
+  </div>
+
+  {{ partial "footer" . }}
+</body>
+
+<div style="display: flex; justify-content: center; margin-bottom: 20px;">
+  <a href="/">
+    <img src="/images/nkim_logo.svg" alt="Logo" style="height: 25px;" />
+  </a>
+</div>
+
+</html>

@@ -1,0 +1,9 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'nkbuilds'
+pluralizeLIstTitles = 'false'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

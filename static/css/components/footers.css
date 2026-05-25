@@ -1,0 +1,143 @@
+/* =========================================
+   Breadcrumb
+========================================= */
+
+.breadcrumb {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    color: #000000;
+    font-weight: bold;
+
+    box-sizing: border-box;
+}
+
+.breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.breadcrumb li {
+    margin:
+        5px
+        6px
+        0
+        0;
+
+    line-height: 1.4;
+}
+
+.breadcrumb li:not(:last-child)::after {
+    content: "/";
+
+    margin-left: 6px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* =========================================
+   Footer Tags
+========================================= */
+
+.footer-tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    text-align: center;
+
+    box-sizing: border-box;
+
+    padding:
+        0
+        20px
+        0
+        20px;
+}
+
+.footer-tags p {
+    margin-right: 4px;
+}
+
+.footer-tags span a {
+    margin: 0 2px;
+}
+
+/* =========================================
+   Footer Logo
+========================================= */
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 25px;
+}
+
+.content pre {
+    font-size: 1.6rem;
+}
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width: 576px) {
+
+    .breadcrumb {
+        font-size: 1.4rem;
+
+        padding:
+            0
+            16px
+            0
+            16px;
+    }
+
+    .footer-tags {
+        font-size: 1.4rem;
+    }
+
+}
+
+/* =========================================
+   Tablet / Desktop
+========================================= */
+
+@media (min-width: 577px) {
+
+    .breadcrumb {
+        font-size: 1.6rem;
+    }
+
+    .footer-tags {
+        font-size: 1.6rem;
+    }
+
+}
