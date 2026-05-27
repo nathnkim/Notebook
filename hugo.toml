@@ -1,7 +1,7 @@
 baseURL = 'https://nathnkim.github.io/Notebook/'
 languageCode = 'en-us'
 title = 'nkbuilds'
-pluralizeLIstTitles = 'false'
+pluralizeListTitles = 'false'
 
 [markup]
   [markup.goldmark]
