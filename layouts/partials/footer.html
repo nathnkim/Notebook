@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 
 {{ if .Params.tags }} <!-- Check if there are tags present -->
     <div class="footer-tags">
@@ -26,6 +26,6 @@
 
   <div class="footer-logo">
     <a href="/">
-      <img src="/images/nkim_logo.svg" alt="Logo">
+      <img src="{{ "images/nkim_logo.svg" | relURL }}">
     </a>
   </div>
