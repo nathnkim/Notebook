@@ -36,12 +36,12 @@
 
                             <div class="project-image">
 
-                                {{ $thumbnail := printf "/images/thumbnails/%s.jpg" .Params.imagecode | urlize }}
+                            {{ $thumbnail := printf "images/thumbnails/%s.jpg" .Params.imagecode }}
 
-                                <img
-                                    src="{{ $thumbnail | absURL }}"
-                                    alt="{{ .Title }}"
-                                >
+                            <img
+                                src="{{ $thumbnail | absURL }}"
+                                alt="{{ .Title }}"
+                            >
 
                             </div>
 
