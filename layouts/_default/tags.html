@@ -22,7 +22,7 @@
 
     <ul>
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            <li><a href="{{ "/entries/" | relURL }}{{ $name | urlize }}">{{ $name }}</a> ({{ len $taxonomy }})</li>
+            <li><a href="{{ "tags/" | relURL }}{{ $name | urlize }}">{{ $name }}</a> ({{ len $taxonomy }})</li>
         {{ end }}
     </ul>
 
