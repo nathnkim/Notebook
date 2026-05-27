@@ -8,10 +8,10 @@
 
     <title>{{ .Title }}</title>
 
-    <link rel="icon" href="{{ "/" | absURL }}images/nkim_logo.svg" type="image/svg+xml">
+    <link rel="icon" href='{{ "images/nkim_logo.svg" | absURL }}' type="image/svg+xml">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | absURL }}">
-    <link rel="stylesheet" href="{{ "/css/pages/listpage.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/pages/listpage.css" | relURL }}">
 </head>
 
 <body>

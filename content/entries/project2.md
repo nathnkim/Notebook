@@ -1,7 +1,7 @@
 +++
 title = 'Project 2'
 date = 2024-09-14T06:43:21-07:00
-draft = true
+draft = false
 tags = ["Theory"]
 imagecode = 'project2'
 +++
