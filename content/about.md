@@ -26,4 +26,5 @@ The experience of writing for this website, as it was for the old portfolio, is 
  
 Why a website though? Why isn't it as appealing to write stuff down on paper? For one, I love [wikis](https://en.wikipedia.org/wiki/Wiki). Wiki functionality is inherent to the web medium. Secondly, websites are super accessible. I don't have to lug around a printed notebook to reference my writing, I just need my phone. I can easily share my work if I so desire as well, without having to publish and update copies.
 
+## A little more on how I built this project
 This website was built with [Hugo](https://gohugo.io/), for which I found [this playlist](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3) very useful to learn. Generative AI helped tremendously with the CSS styling. 
