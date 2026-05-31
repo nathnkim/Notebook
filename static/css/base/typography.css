@@ -16,7 +16,7 @@ a {
 
 /* --- KaTeX fix --- */
 .katex {
-  vertical-align: -0.4em;
+  /*vertical-align: -0.4em;*/
 }
 
 /* Blockquote styling */
