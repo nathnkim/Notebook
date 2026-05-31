@@ -18,3 +18,12 @@ a {
 .katex {
   vertical-align: -0.4em;
 }
+
+/* Blockquote styling */
+
+blockquote {
+    border-left: 4px solid #888;
+    padding-left: 1rem;
+    margin-left: 0;
+    font-style: italic;
+}
