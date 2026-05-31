@@ -20,7 +20,7 @@ The experience of writing for this website, as it was for the old portfolio, is 
   
   >Individual motivations for writing include the ability to operate beyond the limitations of one's own memory (e.g. to-do lists, recipes, reminders, logbooks, maps, directions for complicated tasks or rituals), dissemination of ideas and coordination (e.g. essays, monographs, broadsides, plans, petitions, manifestos), creativity and storytelling, maintaining kinship and other social networks business correspondence regarding goods and services, and life writing (e.g. a diary or journal).
   
-  Particularly, I connect with overcoming memory limitations, creativity, and life writing
+  Particularly, I connect with overcoming memory limitations, creativity, and life writing.
 
 - Writing makes thoughts and things more "official" (maybe even more real) because I took the time to consolidate and organize my thinking about them. Maybe there is a fight against entropy argument in there.
 - Inspiration from reading other people's websites, like my neighbor-in-spirit Tim Monger's beautifully assembled [weekly blog](https://www.timothymonger.com/isthissomething). I've also long admired [Ben Katz's](https://robot-daycare.com/) and [Tim Jacobs'](https://mitxela.com/) (aka mitxela) legendary contributions to the maker-specific blog tradition. I wonder what they would all have to say about their motivations to write.
