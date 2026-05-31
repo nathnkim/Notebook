@@ -15,7 +15,7 @@ The experience of writing for this website, as it was for the old portfolio, is 
 
 - The old portfolio was based on a [bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) template that I didn't write, I wanted to more completely own and define the look and feel of the website. 
 - This is explicit self-expression.
-- The old portfolio format pretty much required finishing a project (very difficult) before writing, and content was made up of only finished projects. I wanted a more flexible platform which encourages writing more often, and facilitates other subject matters.
+- The old portfolio format pretty much required finishing a project (very difficult) before writing, and content was made up of only finished projects. I wanted a more flexible platform which encourages writing more often, and is better set up to handle a wider variety of content subjects.
 - Standard human writing motivations, from [wikipedia:](https://en.wikipedia.org/wiki/Writing)
   
   >Individual motivations for writing include the ability to operate beyond the limitations of one's own memory (e.g. to-do lists, recipes, reminders, logbooks, maps, directions for complicated tasks or rituals), dissemination of ideas and coordination (e.g. essays, monographs, broadsides, plans, petitions, manifestos), creativity and storytelling, maintaining kinship and other social networks business correspondence regarding goods and services, and life writing (e.g. a diary or journal).
