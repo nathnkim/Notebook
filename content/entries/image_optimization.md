@@ -3,7 +3,7 @@ title = 'Image Optimization for this Website'
 date = 2026-06-04
 draft = false
 tags = ["Web"] #Delete the ones that don't apply
-imagecode = 'image'
+imagecode = 'image_optimization'
 +++
 
 This website will likely hold lots of images. Image rendering drove loading times on my [old portfolio website](https://nathnkim.github.io/PortfolioWebsite/), so I know this is something I need to think about if I want my webpages to have respectable loading times. Even if I didn't care about page speed, Github Pages, which hosts this website, restricts sites to [less than 1GB](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). At 3MB per image, I'd be capped at <300 total images in the site.
