@@ -25,7 +25,10 @@ The experience of writing for this website, as it was for the old portfolio, is 
 - Writing makes thoughts and things more "official" (maybe even more real) because I took the time to consolidate and organize my thinking about them. Maybe there is a fight against entropy argument in there.
 - Inspiration from reading other people's websites, like my neighbor-in-spirit Tim Monger's beautifully assembled [weekly blog](https://www.timothymonger.com/isthissomething). I've also long admired [Ben Katz's](https://robot-daycare.com/) and [Tim Jacobs'](https://mitxela.com/) (aka mitxela) legendary contributions to the maker-specific blog tradition. I wonder what they would all have to say about their motivations to write.
 
-Why a website though? Why isn't it as appealing to write stuff down on paper? For one, and I cannot overstate this, I love [hypertext](hhttps://en.wikipedia.org/wiki/Hypertext). Hypertext facilitates curiosity like nothing else. Hypertext functionality currently only exists in the web medium. Secondly, websites are super accessible. I don't have to lug around a printed notebook to reference my writing, I just need my phone. I can easily share my work if I so desire as well, without having to publish and update print copies.
+Why a website though? Why isn't it as appealing to write stuff down on paper? For one, and I cannot overstate this, I love [hypertext](https://en.wikipedia.org/wiki/Hypertext). Hypertext facilitates curiosity like nothing else. Hypertext functionality currently only exists in the web medium. Secondly, websites are super accessible. I don't have to lug around a printed notebook to reference my writing, I just need my phone. I can easily share my work if I so desire as well, without having to publish and update print copies.
 
 ## A little more on how I built this project
 This website was built with [Hugo](https://gohugo.io/), for which I found [this playlist](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3) very useful to learn. Generative AI helped tremendously with the CSS styling. 
+
+## Get in touch
+[Send me an email](mailto:nkim19871@gmail.com)
