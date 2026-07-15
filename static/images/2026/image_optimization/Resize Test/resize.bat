@@ -1,1 +1,0 @@
-magick mogrify  -adaptive-resize 140 *.jpg

@@ -1,0 +1,1 @@
+magick mogrify  -adaptive-resize  780 *.png
