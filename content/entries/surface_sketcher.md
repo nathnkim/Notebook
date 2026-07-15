@@ -1,9 +1,9 @@
 +++
 title = 'Surface Sketcher: Custom Drawing Software'
-date = 2026-06-04
+date = 2026-07-15
 draft = false
 tags = ["Apps","AI","Drawing", "Surface Sketcher"] #Delete the ones that don't apply
-imagecode = 'image_optimization'
+imagecode = 'surface_sketcher'
 +++
 
 [Surface Sketcher](https://github.com/nathnkim/SurfaceSketcher) is a Windows application I developed (read: [vibe coded](https://en.wikipedia.org/wiki/Vibe_coding)) to draw and write on my Surface Laptop Studio. 
