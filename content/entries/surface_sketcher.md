@@ -31,6 +31,7 @@ Here's a quick list of guiding thoughts that shaped my [prompting](https://githu
 There are still a few bugs, these are the ones I have noticed so far (there are probably more):
  - Changing pressure sensitivity re-renders all brush strokes on raw files- pressure sensitivity settings should be a property of a completed stroke not to be overwritten
  - Strange render artifacts appear in sharp discontinuities in really thick lines
+ - Thumbnail and or content export for this website- output in .jpg of correct size, with aspect ratio drawn on canvas/crosshairs to align content for export
 
 Feature expansion ideas:
  - Ability to change swatches in app with hex codes
