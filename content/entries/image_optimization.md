@@ -43,3 +43,12 @@ magick mogrify  -adaptive-resize 140 *.jpg
 ![san_pedro_140](/images/2026/image_optimization/san_pedro_140.jpg)
 
 0.07MB, that'll do.
+
+## Update 8/29/2026
+I don't like the thumbnail resize from above. Found out ImageMagick actually has a thumbnail function, so switched out a bunch of thumbnails using:
+
+~~~
+magick mogrify  -thumbnail 140 *.jpg
+~~~
+
+It's a slight improvement, less visible pixel artifacts.
