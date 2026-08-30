@@ -43,7 +43,7 @@ Another inspiration for this project has been these "SURF VIDEO" stickers I see 
 
 **Bartender at Vine on 4th st** knows nothing, is amused, and acknowledges seeing them everywhere while grabbing a hoppy refresher and a non-alcoholic IPA from the glass door fridge behind the bar. Request for a glass for the beverages is affirmed, and ultimately forgotten in the rush. I was mildly annoyed at myself for not having the courage to remind the bartender of this.
 
-**Izzy Romero** has seen these stickers everywhere, and offers to ask his tagger friend in the scene for more information. I gotta remember to ask him about this again on Monday.
+**Izzy** has seen these stickers everywhere, and offers to ask his tagger friend in the scene for more information. I gotta remember to ask him about this again on Monday.
 
 ![surf_video_1](/images/2026/surf_documentary_1/surf_video_1.jpg)
 
